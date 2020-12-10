@@ -3,10 +3,10 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>mall-admin</artifactId>
+    <artifactId>mall-security</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>mall-admin</name>
-    <description>Mall project for Spring Boot</description>
+    <name>mall-security</name>
+    <description>Demo project for Spring Boot</description>
 
     <parent>
         <artifactId>mock-mall</artifactId>
@@ -20,20 +20,11 @@
             <artifactId>mall-mbg</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
+
         <dependency>
-            <groupId>com.github</groupId>
-            <artifactId>mall-security</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-security</artifactId>
         </dependency>
     </dependencies>
-
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-        </plugins>
-    </build>
 
 </project>
